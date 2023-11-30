@@ -1,4 +1,8 @@
-test_string = "الثعبان"
-print(test_string)
+from random import randint
 
-    new_string = test_string.encode("utf-8")
+num = randint(1, 100)
+
+if num % 2 == 1:
+    print(f"Number {num} is odd")
+else:
+    print(f"Number {num} is even")
